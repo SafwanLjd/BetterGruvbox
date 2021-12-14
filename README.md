@@ -18,7 +18,7 @@ git clone https://github.com/SafwanLjd/BetterGruvbox.git ~/.themes/BetterGruvbox
 
 
 ### AUR
-This Theme is Available in the Arch User Repository, So if You're using an Arch Based Distro You Can Install it With Your Favorite AUR Helper (`paru`, `yay`, etc.)
+This Theme is Available in the Arch User Repository, So if You're Using an Arch Based Distro You Can Install it With Your Favorite AUR Helper (`paru`, `yay`, etc.)
 ```bash
 paru -S bettergruvbox-gtk-theme
 ```
