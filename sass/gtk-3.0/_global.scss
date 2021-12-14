@@ -3,17 +3,17 @@
 @import "functions";
 
 // default color scheme
-$bg_color: if($variant != "dark", #d5c4a1, #1d2021);
-$fg_color: if($variant != "dark", #1d2021, #d5c4a1);
-$base_color: if($variant != "dark", #d5c4a1, #1d2021);
-$text_color: if($variant != "dark", #1d2021, #d5c4a1);
-$button_bg_color: if($variant != "dark", #d5c4a1, #1d2021);
-$button_fg_color: if($variant != "dark", #1d2021, #d5c4a1);
-$header_button_bg_color: #1d2021;
+$bg_color: if($variant != "dark", #d5c4a1, #282828);
+$fg_color: if($variant != "dark", #282828, #d5c4a1);
+$base_color: if($variant != "dark", #d5c4a1, #282828);
+$text_color: if($variant != "dark", #282828, #d5c4a1);
+$button_bg_color: if($variant != "dark", #d5c4a1, #282828);
+$button_fg_color: if($variant != "dark", #282828, #d5c4a1);
+$header_button_bg_color: #282828;
 $header_button_fg_color: #d5c4a1;
 $selected_bg_color: #b8bb26;
-$selected_fg_color: #1d2021;
-$tooltip_bg_color: #1d2021;
+$selected_fg_color: #282828;
+$tooltip_bg_color: #282828;
 $tooltip_fg_color: #d5c4a1;
 
 $selected_borders_color: if($variant != 'light', mix($selected_bg_color, $fg_color, .3), darken($selected_bg_color, 20%));
@@ -21,7 +21,7 @@ $borders_color: shade($bg_color, .88);
 $borders_edge: if($variant != 'light', transparentize(white, 0.2), transparentize($fg_color, 0.93));
 
 // dark colors
-$dark_bg_color: #1d2021;
+$dark_bg_color: #282828;
 $dark_fg_color: #d5c4a1;
 
 // shadows
