@@ -1,8 +1,0 @@
-*.tar.xz
-*.tar.bz2
-*.tar.gz
-*.zip
-*.7z
-
-.sass-cache/
-node_modules/
