@@ -13,7 +13,7 @@ Make Sure You Have The [gtk-engine-murrine](https://archlinux.org/packages/commu
 
 Then Run This Command:
 ```bash
-git clone https://github.com/SafwanLjd/BetterGruvbox.git ~/.themes/BetterGruvbox
+git clone https://gitlab.com/SafwanLjd/BetterGruvbox.git ~/.themes/BetterGruvbox
 ```
 
 
